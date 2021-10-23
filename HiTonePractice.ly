@@ -1,6 +1,6 @@
 \header {
-  title = "Scale  in B major"
-  composer = "Kurashita"
+  title = "A Practice for Higher Notes"
+  composer = "for Euphonium"
 }
 
 \score {
@@ -8,18 +8,71 @@
 
 \defaultTimeSignature
 \time 4/4
+\tempo 4=60
 
 \key bes \major
 
 \clef bass
-    bes,4 c8 d es f g a bes a g f es d c bes|
-    c4 d8 es f g a bes c bes a g f es d c |
-    d4 es8 f g a bes c d c bes a g f es d |
-    es4 f8 g a bes c d es d c bes a g f es
-    f4 g8 a bes c d es f es d c bes a g f
-    g4 a8 bes c d es f g f es d c bes a g
-    a4 bes8 c d es f g a g f es d c bes a
-    bes4 c8 d es f g a bes f d f bes, f d f bes,2. r4 \bar "|." 
+  
+  e,_14( gis b gis e2.) r4 | 
+  f_4( a c a f2.) r4 |
+  ges_23( bes des bes ges2.) r4 |
+  g_12( b d b g2.) r4 |
+  as_1( c es c as2.) r4 |
+  a_2( des e des a2.) r4 |
+  bes_0( d f d bes2.) r4 |
+   \bar "|." 
+  }
+
+  \layout {}
+  \midi {}
+}
+
+
+\score {
+  \relative c' {
+
+\defaultTimeSignature
+\time 4/4
+\tempo 4=60
+
+\key bes \major
+
+\clef bass
+  
+  e,_14( gis b d b gis e) r4 | 
+  f_4( a c es c a f) r4 |
+  ges_23( bes des e des bes ges) r4 |
+  g_12( b d f d b g) r4 |
+  as_1( c es ges es c as) r4 |
+  a_2( des e g e des a) r4 |
+  bes_0( d f as f d bes) r4 |
+   \bar "|." 
+  }
+
+  \layout {}
+  \midi {}
+}
+
+\score {
+  \relative c' {
+
+\defaultTimeSignature
+\time 4/4
+\tempo 4=60
+
+\key bes \major
+
+\clef bass
+  
+  e,_14( gis b d e d b gis e2.) r4 | 
+  f_4( a c es f es c a f2.) r4 |
+  ges_23( bes des e ges e des bes ges2.) r4 |
+  g_12( b d f g f d b g2.) r4 |
+  as_1( c es ges as ges es c as2.) r4 |
+  a_2( des e g a g e des a2.) r4 |
+  bes_0( d f as bes as f d bes2.) r4 |
+   \bar "|." 
   }
 
   \layout {}
